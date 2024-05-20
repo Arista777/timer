@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#app {
+  text-align: center;
+}
+
+#break-controls,
+#session-controls,
+#timer-controls {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#break-length,
+#session-length,
+#timer-label,
+#time-left {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
